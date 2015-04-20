@@ -53,56 +53,31 @@ a {
       margin-top: 1rem;
       margin-left: 0; } }
 
-.page-header {
+header {
   color: #fff;
   text-align: center;
-  background-color: #159957;
-  background-image: linear-gradient(120deg, #155799, #159957); }
+  background: url(images/congruent.png) #FFFFFF repeat; 
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 400;
+  height: 212px;
+  }
 
 @media screen and (min-width: 64em) {
-  .page-header {
-    padding: 5rem 6rem; } }
+  header {
+    padding: 1rem 6rem; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
-  .page-header {
-    padding: 3rem 4rem; } }
+  header {
+    padding: 1rem 4rem; } }
 
 @media screen and (max-width: 42em) {
-  .page-header {
-    padding: 2rem 1rem; } }
+  header {
+    padding: 1rem 1rem; } }
 
 .project-name {
   margin-top: 0;
-  margin-bottom: 0.1rem; }
-
-@media screen and (min-width: 64em) {
-  .project-name {
-    font-size: 3.25rem; } }
-
-@media screen and (min-width: 42em) and (max-width: 64em) {
-  .project-name {
-    font-size: 2.25rem; } }
-
-@media screen and (max-width: 42em) {
-  .project-name {
-    font-size: 1.75rem; } }
-
-.project-tagline {
-  margin-bottom: 2rem;
-  font-weight: normal;
-  opacity: 0.7; }
-
-@media screen and (min-width: 64em) {
-  .project-tagline {
-    font-size: 1.25rem; } }
-
-@media screen and (min-width: 42em) and (max-width: 64em) {
-  .project-tagline {
-    font-size: 1.15rem; } }
-
-@media screen and (max-width: 42em) {
-  .project-tagline {
-    font-size: 1rem; } }
+  margin-bottom: 0.1rem; 
+ }
 
 .main-content :first-child {
   margin-top: 0; }
@@ -243,3 +218,76 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+
+/*=============================================Custom CSS Styles*/
+header h1 a{
+  color:#000000;
+}
+
+header span.new-line {
+	display: block;
+}
+header h1 span.first-letter, header h2 span.first-letter {
+	color: #e25400;
+	font-weight: bold;
+}
+header h2 {
+	margin: 5px 0;
+}
+#site-name.ie {
+	font-size: 2.2em;
+}
+#site-slogan span#conference-dates {
+	display: block;
+	color: #e25400;
+}
+.site-name-orange a {
+	color: #e25400;
+}
+header span.site-slogan-small {
+	font-size: 0.9em;
+	letter-spacing: 2px;
+}
+#logo {
+	opacity: 0;
+}
+header h1 a {
+	letter-spacing: 0;
+	font-weight: bold;
+	text-decoration:none;
+}
+header h1 a:hover {
+	text-decoration:none;
+}
+
+h2 span.site-name-small {
+	font-size: 0.9em;
+}
+/* Slogan */
+.ssw-n #site-slogan, h2#site-slogan {
+	font-weight: bold;
+}
+#branding .h-group {
+	display: block;
+}
+#site-slogan::selection {
+	color: #fff;
+}
+#site-slogan::-moz-selection {
+ color: #fff;
+}
+span#conference-dates::selection {
+	color: #fff;
+}
+span#conference-dates::moz-selection {
+ color: #fff;
+}
+#site-name a::selection {
+	color: #fff;
+}
+#site-name a::-moz-selection {
+ color: #fff;
+}
+span.font-orbitron {
+  font-family: "Orbitron";
+}
